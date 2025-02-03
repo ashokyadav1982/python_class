@@ -1,6 +1,6 @@
 class first2:
     a = 1
-    b = 'first2'
+    b = 'ashok'
     c = 2.5
 
     def printvalues(self):
