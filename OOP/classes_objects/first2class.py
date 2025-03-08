@@ -8,9 +8,10 @@ class first2:
         print(f"b: {self.b}")
         print(f"c: {self.c}")
 
-def main():
+def abc():
     first2obj = first2()
     first2obj.printvalues()
 
 if __name__ == "__main__":
-    main()
+    abc()
+    print("End of program")

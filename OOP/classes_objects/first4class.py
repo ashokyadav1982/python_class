@@ -1,9 +1,9 @@
 class first4class:
-    def assignvalue(self, value):
-        self.value = value
+    def assignvalue(self, username):
+        self.name = username
 
     def printvalue(self):
-        print(f"value: {self.value}")
+        print(f"value: {self.name}")
 
 def main():
     first4obj = first4class()

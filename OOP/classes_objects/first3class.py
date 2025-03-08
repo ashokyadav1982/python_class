@@ -1,7 +1,8 @@
 class first3class:
-
+    
     def printname(self):
         self.name = 'first3'
+        self.name = 4
         print(f"name: {self.name}")
 
 def main():
