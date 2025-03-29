@@ -4,6 +4,9 @@ class FirstClass:
     firstnum = 1
     second_num = 2
 
+    def assign_values(self, firstnum, second_num):
+        self.firstnum = firstnum
+        self.second_num = second_num
     def add(self):
         return self.firstnum + self.second_num
     
@@ -19,6 +22,7 @@ class FirstClass:
 
 def main():
     firstclass = FirstClass()
+    firstclass.assign_values(5, 2)
     print(f"Addition: {firstclass.add()}")
     print(f"Subtraction: {firstclass.subtract()}")
     print(f"Multiplication: {firstclass.multiply()}")
