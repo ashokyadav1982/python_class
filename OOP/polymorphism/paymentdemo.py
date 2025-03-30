@@ -16,7 +16,7 @@ def checkout(total_amount, payment_method):
     payment_method.process_payment(total_amount)
 
 def main():
-    total_amount = 100.50
+    total_amount = 1000.50
     payment_method = CreditCardPayment()
     checkout(total_amount, payment_method)
     
