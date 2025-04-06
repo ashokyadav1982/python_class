@@ -6,6 +6,7 @@ def read_file(file_path):
         with open(file_path, 'r') as file:
             data = file.read()
             return data
+        
     except FileNotFoundError:
         return "File not found."
     except Exception as e:

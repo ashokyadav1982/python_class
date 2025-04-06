@@ -26,6 +26,7 @@ def create_connection(db_name, db_user, db_password, db_host, db_port):
 def main():
     connection = create_connection("insurance", "postgres", "password", "localhost", "5432")
     if connection:
+        print("Successfully connected to database")
         connection.close()
         print("Connection closed")
 
